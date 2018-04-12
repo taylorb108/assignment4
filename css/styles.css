@@ -1,5 +1,5 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    background-color:rgba(135, 206, 235, 0.63);
-    background-size:cover;
+    background-color: rgba(135, 206, 235, 0.63);
+    background-size: cover;
     background-position: left;
     height: 100vh;
     display: flex;
@@ -23,7 +23,7 @@ body {
 
 h1,
 h2 {
-    
+
     font-weight: 400;
 }
 
@@ -32,7 +32,7 @@ h2 {
 .ul-title {
     margin-left: 100px;
     margin-right: 100px;
-    
+
 }
 
 
@@ -58,14 +58,17 @@ img {
     padding: 15px;
     display: inline-block;
 }
-#pics-paragraph{
-	text-align: center;
+
+#pics-paragraph {
+    text-align: center;
 }
-.feature-pics{
+
+.feature-pics {
     display: flex;
-   justify-content: center
+    justify-content: center
 }
-#puppy-paragraph{
+
+#puppy-paragraph {
     text-align: center;
     font-size: 60px
 }
@@ -85,9 +88,6 @@ img {
     font: 300px;
     font-size: 30px;
     display: table
-    
-    
-  
 }
 
 .main-nav {
@@ -97,34 +97,38 @@ img {
 }
 
 
-header nav{
-flex:1;
+header nav {
+    flex: 1;
 
 }
-header nav ul{
-    display:flex;
-        justify-content:flex-start;
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
 }
 
-header nav li{
+header nav li {
     list-style: none;
     padding: 1em;
-    
+
 }
-main{
+
+main {
     display: flex;
     align-items: center;
     flex: 1;
     flex-direction: column;
     font-size: 35px;
-    
+
 }
-.herotext{
-    padding:3em;
-    display:flex;
+
+.herotext {
+    padding: 3em;
+    display: flex;
     flex-direction: column;
-    flex:5;
+    flex: 5;
 }
+
 .section-features {
     width: 50%;
     margin-left: 15%;
@@ -134,32 +138,60 @@ main{
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    
+
 }
 
 .bottom-img {
-    height:300px;
+    height: 300px;
     width: auto;
 }
 
 
 
-.logo{
-height:4em;
-}
-header{
-    display:flex;
-        align-items:center;
-    background-color:#ebbebe;
-        font-size: 40px;
-}
-header nav{
-    flex:1;
+.logo {
+    height: 4em;
 }
 
-	
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ebbebe;
+    font-size: 40px;
+}
 
-@media screen and (max-width:30rem){
+header nav {
+    flex: 1;
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 33%;
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+
+}
+
+form input[type=submit] {
+    color: #000000
+}
+
+
+
+@media screen and (max-width:30rem) {
     header,
     main,
     footer {
